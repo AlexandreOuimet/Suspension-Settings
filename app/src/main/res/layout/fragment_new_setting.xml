@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewSettingFragment" >
+
+    <TextView
+        android:id="@+id/fork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/forks"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/fork_rebound"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_weight="1"
+            android:text="@string/rebound" />
+
+        <Button
+            android:id="@+id/fork_rebound_minus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.1"
+            android:text="@string/minus" />
+
+        <TextView
+            android:id="@+id/fork_rebound_txt"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/fork_rebound_plus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="0.1"
+            android:text="@string/plus" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/fork_compression"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_weight="1"
+            android:text="@string/compression" />
+
+        <Button
+            android:id="@+id/fork_compression_minus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.1"
+            android:text="@string/minus" />
+
+        <TextView
+            android:id="@+id/fork_compression_txt"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/fork_compression_plus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="0.1"
+            android:text="@string/plus" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Amortisseur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/shock"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/shock_rebound"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_weight="1"
+            android:text="@string/rebound" />
+
+        <Button
+            android:id="@+id/shock_rebound_minus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.1"
+            android:text="@string/minus" />
+
+        <TextView
+            android:id="@+id/shock_rebound_txt"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/shock_rebound_plus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="0.1"
+            android:text="@string/plus" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/shock_low_comp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_weight="1"
+            android:text="@string/shock_low_compression" />
+
+        <Button
+            android:id="@+id/shock_low_comp_minus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.1"
+            android:text="@string/minus" />
+
+        <TextView
+            android:id="@+id/shock_low_comp_txt"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/shock_low_comp_plus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="0.1"
+            android:text="@string/plus" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/shock_high_comp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_weight="1"
+            android:text="@string/shock_high_compression" />
+
+        <Button
+            android:id="@+id/shock_high_comp_minus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.1"
+            android:text="@string/minus" />
+
+        <TextView
+            android:id="@+id/shock_high_comp_txt"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/shock_high_comp_plus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="0.1"
+            android:text="@string/plus" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/setup_name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/save_button"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:ems="10"
+            android:hint="@string/setting_s_name"
+            android:inputType="textPersonName"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="32dp"
+            android:text="@string/save" />
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Suspension</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fourches">Fourches</string>
+    <string name="rebond">Rebond</string>
+    <string name="plus">+</string>
+    <string name="moins">-</string>
+    <string name="amortisseur">Amortisseur</string>
+    <string name="compression">Compression</string>
+    <string name="sauvegarder">Sauvegarder</string>
+    <string name="rebound">Rebound</string>
+    <string name="save">Save</string>
+    <string name="forks">Forks</string>
+    <string name="shock_low_compression">Shock Low Compression</string>
+    <string name="shock_high_compression">Shock High Compression</string>
+    <string name="setting_s_name">Setting\'s Name</string>
+    <string name="minus">-</string>
+    <string name="shock">Shock</string>
+</resources>

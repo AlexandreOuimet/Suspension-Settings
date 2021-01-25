@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mySettings">
+    <fragment
+        android:id="@+id/mySettings"
+        android:name="com.example.suspension.MySettingsFragment"
+        android:label="fragment_my_settings"
+        tools:layout="@layout/fragment_my_settings" >
+        <action
+            android:id="@+id/action_mySettings_to_newSettingFragment"
+            app:destination="@id/newSettingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newSettingFragment"
+        android:name="com.example.suspension.NewSettingFragment"
+        android:label="fragment_new_setting"
+        tools:layout="@layout/fragment_new_setting" >
+        <argument
+            android:name="settingsName"
+            app:argType="string"
+            android:defaultValue="No name setting" />
+    </fragment>
+</navigation>
